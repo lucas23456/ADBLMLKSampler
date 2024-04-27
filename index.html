@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ABDLMLK SAMPLER</title>
+</head>
+
+<body
+  style="background-color: #1e1b1a; display: flex; justify-content: center; align-items: center; flex-direction: column; color: white;">
+
+  <div id="waveform">
+  </div>
+
+  <button onclick="randomChop()">
+    Get Random Chop
+  </button>
+  <label>
+    Zoom: <input id="zoomRange" type="range" min="10" max="1000" value="100" />
+  </label>
+
+
+  <script type="module" src="/main.js"></script>
+
+</body>
+
+</html>
